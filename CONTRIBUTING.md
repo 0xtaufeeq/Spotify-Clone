@@ -1,4 +1,4 @@
-### how to contribute to this repository -
+### How to contribute to this repository -
 
 1. Fork this repository
 2. Make changes in your forked repository
