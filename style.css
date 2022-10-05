@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 14px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.589);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.637);
+  }
+  
+  html, body, #app, #principal {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+  }
+  
+  #app {
+    min-width: 767px;
+    overflow-x: auto;
+  }
+  
+  #principal {
+    background-color: #780410;
+    transition: background-color 1s ease;
+    color: #fff;
+  }
+  #principal #latNav {
+    max-width: 246px;
+    background-color: #0a0a0a;
+  }
+  #principal #latNav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  #principal #latNav .nav .nav-item .nav-link {
+    color: #fff;
+    fill: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  #principal #latNav .nav .nav-item .nav-link svg {
+    margin-right: 13px;
+  }
+  #principal #latNav .nav .nav-item .nav-link.ativo, #principal #latNav .nav .nav-item .nav-link:hover {
+    opacity: 1;
+  }
+#principal #latNav #side_listbutton {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    display: flex;
+    color: #fff;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    padding: 8px 24px;
+    width: 100%;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  #principal #latNav #side_listbutton .plus_bttn, #principal #latNav #side_listbutton .heart_bttn, #principal #latNav #side_listbutton .flagBtn {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #principal #latNav #side_listbutton .plus_bttn {
+    background-color: #fff;
+  }
+  #principal #latNav #side_listbutton .heart_bttn {
+    background: linear-gradient(125deg, #773de3 41%, #cffff1 100%);
+    fill: #fff;
+  }
+  #principal #latNav #side_listbutton:hover {
+    opacity: 1;
+  }
