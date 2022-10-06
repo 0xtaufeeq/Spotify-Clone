@@ -10,7 +10,7 @@ This repository was made to encourage to start your web development and open sou
 
 # Theme
 
-The theme for this website is a spotify,s web player.
+The theme for this website is a spotify's web player.
 
 
 ## Rules
