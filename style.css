@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
   }
   
   ::-webkit-scrollbar {
@@ -35,8 +37,9 @@
     color: #fff;
   }
   #principal #latNav {
-    max-width: 246px;
+    max-width: 210px;
     background-color: #0a0a0a;
+    
   }
   #principal #latNav a {
     text-decoration: none;
@@ -102,10 +105,11 @@
   }
   #principal #latNav #installApp {
     fill: #fff;
-    font-size: 0.9em;
+    font-size: 0.95em;
     font-weight: 500;
     opacity: 0.8;
     transition: opacity 0.3s;
+    margin-left: 20px;
   }
   #principal #latNav #installApp svg {
     margin-right: 15px;
@@ -468,3 +472,4 @@
       width: 15rem;
     }
   }
+
