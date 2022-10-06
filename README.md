@@ -8,6 +8,8 @@ This repository is specially for those who want to start their journey in open s
 
 This repository was made to encourage to start your web development and open source contribution journey.
 
+![App Screenshot](https://raw.githubusercontent.com/TaufeeqRiyaz/Spotify-Clone/main/assets/screenshot.png)
+
 # Theme
 
 The theme for this website is a spotify's web player.
