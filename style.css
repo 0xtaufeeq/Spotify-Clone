@@ -114,7 +114,7 @@
     opacity: 1;
   }
   #principal #feed {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #222222 50%, #222222 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #121212 50%, #121212 100%);
     overflow-y: auto;
   }
   #principal #feed #topNav {
@@ -167,7 +167,7 @@
     outline: 0;
   }
   #principal #feed #main {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #222222 50%, #222222 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #121212 50%, #121212 100%);
   }
   #principal #feed #main #feedHeader {
     max-width: 1920px;
@@ -338,7 +338,7 @@
   #audioBar {
     width: 100%;
     height: 90px;
-    background-color: #222222;
+    background-color: #121212;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
   }
