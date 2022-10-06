@@ -4,8 +4,21 @@
 ##### A clone of Spotify's web player.
 
 This repository is open for contributions!
+This repository is specially for those who want to start their journey in open source contribution.
 
 This repository was made to encourage to start your web development and open source contribution journey.
+
+# Theme
+
+The theme for this website is a spotify,s web player.
+
+
+## Rules
+
+1. Don't spam unnecessary PRs and make the hacktoberfest's experience troublesome for others
+2. Contribute to the issues marked for Hacktoberfest. Please refrain from contributing/solving the issues tagged as 'Work in Progress'.
+3. once you've made your contribution, make sure to add your name to the CONTRIBUTIONS.md file.
+4. Irrelevant, unnecessary and spammy PRs will be deleted.
 
 ### Here are some usefull resources - 
 
