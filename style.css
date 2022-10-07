@@ -527,6 +527,9 @@ body,
     margin: -9px;
     padding: 18px;
   }
+  #principal #feed #main .feedPlaylist .playlists li{
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 300px) {
