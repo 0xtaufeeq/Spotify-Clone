@@ -482,8 +482,9 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     margin-block: 0px;
-    font-size: 0.8125rem;
-    font-weight: 400;
+    font-size: 1rem;
+    
+    font-weight: 500;
     font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
     color: inherit;
     background-color: white !important;
@@ -503,6 +504,21 @@
 
 .div--hun{
   display: flex;
-  flex-direction: row;
+  justify-content: left !important;
+  align-items: left !important;
 }
 
+.form--hun{
+  float: left;
+  width: 10%;
+}
+
+
+#topNav{
+  display: flex;
+}
+
+#arrowMenu{
+  display: flex;
+  flex-direction: row;
+}
