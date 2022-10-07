@@ -245,11 +245,15 @@ body,
   background-color: #1ed760;
   transition: opacity 0.3s ease;
   opacity: 0;
+  box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.9);
+  transition: all ease-in-out 0.2s;
 }
 
 #principal #feed #main #feedHeader #playlistsRecentes li button.btn:hover {
   padding: 1px;
   border: 0;
+  transform: scale(1.05);
+  
 }
 
 #botomIcon {
@@ -328,11 +332,15 @@ body,
   right: 8px;
   bottom: 80px;
   cursor: default;
+  transition: all ease-in-out 0.2s;
+  box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.9);
 }
 
 #principal #feed #main .feedPlaylist .playlists li button.btn:hover {
   padding: 1px;
   border: 0;
+  transform: scale(1.05);
+  
 }
 
 #principal #feed #main .feedPlaylist .playlists li:hover {
