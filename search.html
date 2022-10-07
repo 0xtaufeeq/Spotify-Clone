@@ -136,7 +136,7 @@
       <div id="feed" class="w-100">
 
         <!-- menu superior do conteudo -->
-        <nav id="topNav" class="d-flex justify-content-between align-items-center px-4 py-2">
+        <nav id="topNav" class="d-flex justify-content-between  px-4 py-2">
 
           <!-- Start of arrows -->
 
@@ -153,12 +153,13 @@
                   d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z">
                 </path>
               </svg></button>
+              <div class="div--hun">
+                <form class="form--hun"><input class="Type__TypeElement-goli3j-0 cPwEdQ QO9loc33XC50mMRUCIvf" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="What do you want to listen to?" data-testid="search-input" value="" style="color: rgb(0, 0, 0);"></form>
+              </div>
           </div>
 
           <!-- End of arrows-->
-          <div class="div--hun">
-          <form class="form--hun"><input class="Type__TypeElement-goli3j-0 cPwEdQ QO9loc33XC50mMRUCIvf" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="What do you want to listen to?" data-testid="search-input" value="" style="color: rgb(0, 0, 0);"></form>
-        </div>
+        
           <div id="btnTopNav" class="d-flex">
 
             <!-- Start of user profile -->
@@ -184,11 +185,83 @@
         <!-- feed do conteudo principal -->
         <main id="main" class="p-4">
 
-          <!-- seção inicial (header) -->
+          <!-- seção inicial (header -->
           <section id="feedHeader">
 
             
 
+            <section class="feedPlaylist">
+              <h4 class="mb-3"><a href="#"><b>Recent Searches</b></a></h4>
+              
+              <br>
+              <ul class="playlists">
+                <li>
+                  <img src="./assets/7.jpeg" >
+                  <button type="button" class="btn me-3"><svg role="img" height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg></button>
+                  <span>Mood Booster</span>
+                  <p><br>By Spotify</p>
+                </li>
+  
+                <li>
+                  <img src="./assets/8.jpeg" >
+                  <button type="button" class="btn me-3"><svg role="img" height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg></button>
+                  <span>Chill Bro</span>
+                  <p><br>By Spotify</p>
+                </li>
+  
+                <li>
+                  <img src="./assets/9.jpeg" >
+                  <button type="button" class="btn me-3"><svg role="img" height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg></button>
+                  <span>Moody Mix</span>
+                  <p><br>By Spotify</p>
+                </li>
+  
+                <li>
+                  <img src="./assets/10.jpeg" >
+                  <button type="button" class="btn me-3"><svg role="img" height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg></button>
+                  <span>Latin Mix</span>
+                  <p><br>By Spotify</p>
+                </li>
+  
+                <li>
+                  <img src="./assets/11.jpeg" >
+                  <button type="button" class="btn me-3"><svg role="img" height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg></button>
+                  <span>Hindi Mix</span>
+                  <p><br>By Spotify</p>
+                </li>
+  
+                <li>
+                  <img src="./assets/12.jpeg" >
+                  <button type="button" class="btn me-3"><svg role="img" height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+                      </path>
+                    </svg></button>
+                  <span>2010s Mix</span>
+                  <p><br>By Spotify</p>
+                </li>
+              </ul>
+            </section>
            
           
 
@@ -213,15 +286,13 @@
                  <li>
                   <img src="./images/5.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
-                 
-  
-               
+                 <li>
+                  <img src="./images/6.jpg" :alt="sleep deprived" class="image-hun">
+                 </li>               
               </ul>
+
               <ul class="playlists">
                 <li>
-                  <img src="./images/6.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 <li>
                   <img src="./images/7.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
                  <li>
@@ -233,14 +304,16 @@
                  <li>
                   <img src="./images/10.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
-                 
-  
-               
-              </ul>
-              <ul class="playlists">
-                <li>
+                 <li>
                   <img src="./images/11.jpg" :alt="sleep deprived" class="image-hun">
+                  </li>
+                  <li>
+                  <img src="./images/12.jpg" :alt="sleep deprived" class="image-hun">
+                   </li>
                  </li>
+              </ul>
+
+              <ul class="playlists">
                  <li>
                   <img src="./images/12.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
@@ -253,17 +326,15 @@
                  <li>
                   <img src="./images/15.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
-                 
-  
-               
-              </ul>
-              <ul class="playlists">
-                <li>
+                 <li>
                   <img src="./images/16.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
                  <li>
                   <img src="./images/17.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
+              </ul>
+
+              <ul class="playlists">
                  <li>
                   <img src="./images/18.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
@@ -271,31 +342,17 @@
                   <img src="./images/19.jpg" :alt="sleep deprived" class="image-hun">
                  </li>
                  <li>
-                  <img src="./images/20.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 
-  
-               
-              </ul>
-              <ul class="playlists">
+                 <img src="./images/20.jpg" :alt="sleep deprived" class="image-hun">
+                </li>
                 <li>
-                  <img src="./images/3.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 <li>
-                  <img src="./images/8.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 <li>
-                  <img src="./images/11.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 <li>
-                  <img src="./images/1.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 <li>
-                  <img src="./images/4.jpg" :alt="sleep deprived" class="image-hun">
-                 </li>
-                 
-  
-               
+                 <img src="./images/1.jpg" :alt="sleep deprived" class="image-hun">
+                </li>
+                <li>
+                 <img src="./images/2.jpg" :alt="sleep deprived" class="image-hun">
+                </li>
+                <li>
+                 <img src="./images/3.jpg" :alt="sleep deprived" class="image-hun">
+                </li>
               </ul>
                      
           </section>
