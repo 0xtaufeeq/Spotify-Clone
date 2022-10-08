@@ -241,7 +241,7 @@ body,
     justify-content: flex-start;
     position: relative;
     gap: 16px;
-    transition: 500ms ease;
+    transition: 1250ms ease-in-out;
 }
 
 #principal #feed #main #feedHeader #playlistsRecentes {

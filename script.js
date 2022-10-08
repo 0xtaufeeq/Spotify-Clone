@@ -92,4 +92,4 @@ const animateCarousel = setInterval(() => {
     } else {
         console.log("error!!!");
     }
-}, 4000);
+}, 5500);
