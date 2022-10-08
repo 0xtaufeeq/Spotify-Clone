@@ -136,7 +136,12 @@ body,
 }
 
 #principal #feed {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #121212 50%, #121212 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #121212 50%,
+    #121212 100%
+  );
   overflow-y: auto;
 }
 
@@ -197,7 +202,12 @@ body,
 }
 
 #principal #feed #main {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #121212 50%, #121212 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #121212 50%,
+    #121212 100%
+  );
 }
 
 #principal #feed #main #feedHeader {
@@ -253,7 +263,6 @@ body,
   padding: 1px;
   border: 0;
   transform: scale(1.05);
-  
 }
 
 #botomIcon {
@@ -275,12 +284,26 @@ body,
   max-width: 1920px;
 }
 
-#principal #feed #main .feedPlaylist h4>a {
+#principal #feed #main .feedPlaylist h4 {
+  display: inline;
+}
+#principal #feed #main .feedPlaylist h4 > a {
   text-decoration: none;
   color: #fff;
 }
 
-#principal #feed #main .feedPlaylist h4>a:hover {
+#principal #feed #main .feedPlaylist h4 > a:hover {
+  text-decoration: underline;
+}
+#principal #feed #main .feedPlaylist .see-all {
+  text-decoration: none;
+  color: #b3b3b3;
+  float: right;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+#principal #feed #main .feedPlaylist .see-all:hover {
   text-decoration: underline;
 }
 
@@ -340,7 +363,6 @@ body,
   padding: 1px;
   border: 0;
   transform: scale(1.05);
-  
 }
 
 #principal #feed #main .feedPlaylist .playlists li:hover {
@@ -535,7 +557,7 @@ body,
     margin: -9px;
     padding: 18px;
   }
-  #principal #feed #main .feedPlaylist .playlists li{
+  #principal #feed #main .feedPlaylist .playlists li {
     margin-bottom: 100px;
   }
 }
@@ -626,15 +648,15 @@ body,
   margin: 10px;
 }
 
-#audioBar #caixaCentral #barraDeProgresso input[type=range] {
+#audioBar #caixaCentral #barraDeProgresso input[type="range"] {
   width: 25rem;
 }
 
-#audioBar #configAudio #volume input[type=range] {
+#audioBar #configAudio #volume input[type="range"] {
   width: 5rem;
 }
 
-#audioBar input[type=range] {
+#audioBar input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   background: transparent;
@@ -642,17 +664,17 @@ body,
   width: 5rem;
 }
 
-#audioBar input[type=range]:focus {
+#audioBar input[type="range"]:focus {
   outline: none;
 }
 
-#audioBar input[type=range]::-webkit-slider-runnable-track {
+#audioBar input[type="range"]::-webkit-slider-runnable-track {
   background-color: #ffffff;
   border-radius: 0.5rem;
   height: 0.25rem;
 }
 
-#audioBar input[type=range]::-webkit-slider-thumb {
+#audioBar input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   margin-top: -3.2px;
@@ -662,18 +684,18 @@ body,
   width: 0.7rem;
 }
 
-#audioBar input[type=range]:focus::-webkit-slider-thumb {
+#audioBar input[type="range"]:focus::-webkit-slider-thumb {
   outline: 3px solid #22c925;
   outline-offset: 0.125rem;
 }
 
-#audioBar input[type=range]::-moz-range-track {
+#audioBar input[type="range"]::-moz-range-track {
   background-color: #ffffff;
   border-radius: 0.5rem;
   height: 0.25rem;
 }
 
-#audioBar input[type=range]::-moz-range-thumb {
+#audioBar input[type="range"]::-moz-range-thumb {
   background-color: #22c925;
   border: none;
   border-radius: 0.5rem;
@@ -681,7 +703,7 @@ body,
   width: 0.7rem;
 }
 
-#audioBar input[type=range]:focus::-moz-range-thumb {
+#audioBar input[type="range"]:focus::-moz-range-thumb {
   outline: 3px solid #22c925;
   outline-offset: 0.125rem;
 }
@@ -718,7 +740,7 @@ body,
     font-size: 0.8em;
   }
 
-  #audioBar #caixaCentral #barraDeProgresso input[type=range] {
+  #audioBar #caixaCentral #barraDeProgresso input[type="range"] {
     width: 15rem;
   }
 }
