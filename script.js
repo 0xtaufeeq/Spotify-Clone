@@ -30,11 +30,16 @@ const gap = 16;
 let tracker = 0;
 let carouselMovement = "forwards";
 
-//Please Reload the page to see the Carousel Slider's Responsive Design
-window.addEventListener("resize", () => {
+const handleCarouselChildWidth = () => {
     carouselUl.forEach((val) => {
         val.style.width = `${carouselContainer.clientWidth}px`;
     });
+};
+handleCarouselChildWidth();
+
+//Please Reload the page to see the Carousel Slider's Responsive Design
+window.addEventListener("resize", () => {
+    handleCarouselChildWidth();
 });
 
 const handleLeftBtn = () => {
