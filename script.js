@@ -19,3 +19,20 @@ else if (hour < 18) welcomeText = welcomeTypes[1];
 else welcomeText = welcomeTypes[2];
 
 greeting.innerHTML = welcomeText;
+
+
+
+//Scrolling nav bar code
+const nav=document.querySelector("#topNav");
+const sectionOne=document.querySelector(".fw-bold");
+const sectionOneOptions={};
+const sectionOneObserver = new IntersectionObserver(function(entries , sectionOneObserver) {
+  entries.forEach(entry => {
+    if(!entry.isIntersecting){      
+      nav.style.backgroundColor="black";
+    } else{     
+      nav.style.backgroundColor="transparent";
+    }
+  })
+} , sectionOneOptions);
+sectionOneObserver.observe(sectionOne);
