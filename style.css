@@ -686,6 +686,11 @@ body,
   outline-offset: 0.125rem;
 }
 
+#full-screen {
+  background-color: #121212;
+  border: none;
+}
+
 @media only screen and (max-width: 1060px) {
   #audioBar button.icones svg {
     width: 15px;
