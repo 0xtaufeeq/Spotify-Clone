@@ -592,7 +592,8 @@ p {
     margin-inline-end: 0px;
 }
 .fb--btn{
-    background-color: #4267B2;
+    background-color:#4267B2;
+    color: white !important;
 }
 
 .apple--black{
@@ -614,4 +615,7 @@ p {
     color: black;
     border-color: white;
     font-weight: bold;
+}
+.fb--para{
+    color: white !important;
 }
