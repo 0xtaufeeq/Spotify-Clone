@@ -263,7 +263,6 @@ body,
   padding: 1px;
   border: 0;
   transform: scale(1.05);
-  
 }
 
 #botomIcon {
@@ -298,8 +297,10 @@ body,
 }
 #principal #feed #main .feedPlaylist .see-all {
   text-decoration: none;
-  color: #fff;
+  color: #b3b3b3;
   float: right;
+  font-size: 9pt;
+  font-weight: bold;
 }
 
 #principal #feed #main .feedPlaylist .see-all:hover {
@@ -362,7 +363,6 @@ body,
   padding: 1px;
   border: 0;
   transform: scale(1.05);
-  
 }
 
 #principal #feed #main .feedPlaylist .playlists li:hover {
