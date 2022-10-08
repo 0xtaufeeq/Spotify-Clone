@@ -146,11 +146,13 @@ body,
 }
 
 #principal #feed #topNav {
-  transition: background-color 1s ease;
+  transition: background-color .3s ease;
   position: sticky;
   top: 0;
   z-index: 999;
 }
+
+
 
 #principal #feed #topNav #arrowMenu button {
   border: none;
@@ -158,7 +160,7 @@ body,
   width: 32px;
   height: 32px;
   border-radius: 16px;
-  background-color: #0a0a0a;
+  background-color: rgba(146, 144, 144, 0.671);
   fill: #fff;
   opacity: 0.5;
 }
@@ -181,7 +183,7 @@ body,
 }
 
 #principal #feed #topNav #btnTopNav #user_bttn button {
-  background-color: rgba(10, 10, 10, 0.4);
+  background-color: rgba(99, 99, 99, 0.594);
   border: none;
   border-radius: 50px;
   padding: 3px;
