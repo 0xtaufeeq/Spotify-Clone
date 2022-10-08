@@ -8,7 +8,9 @@ This repository is specially for those who want to start their journey in open s
 
 This repository was made to encourage to start your web development and open source contribution journey.
 
-![App Screenshot](https://raw.githubusercontent.com/TaufeeqRiyaz/Spotify-Clone/main/assets/screenshot.png)
+![image](https://user-images.githubusercontent.com/74425589/194723035-a820c236-9180-4716-923d-d9b918d0fdae.png)
+
+
 
 # Theme
 
