@@ -546,7 +546,6 @@
 
 }
 #user_bttn {
-  width:200px;
   display: flex;
   flex-direction: column;
 }
