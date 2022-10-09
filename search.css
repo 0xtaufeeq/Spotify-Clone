@@ -522,3 +522,30 @@
   display: flex;
   flex-direction: row;
 }
+
+.dropdownMenuButton1-dropContent {
+  display: none;
+  padding:10px;
+  padding-left:15px;
+  background-color: rgba(10, 10, 10, 0.4);
+  margin-top:10px;
+  border-radius: 5px;
+  width:254px;
+  align-self: flex-end;
+  position: absolute;
+  top:30px
+}
+
+.show {
+  display: block;
+}
+
+.dropdownMenuButton1-dropContent > a {
+  text-decoration: none;
+  color:white;
+
+}
+#user_bttn {
+  display: flex;
+  flex-direction: column;
+}
