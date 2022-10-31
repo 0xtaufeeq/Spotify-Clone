@@ -5,6 +5,8 @@
     flex-direction: column;
     height: 100vh;
     overflow-x: hidden;
+    background-image: 'D:\\SEM 5\\HACKTOBERFEST2K22\\Spotify-Clone\\assets\\background.gif';
+    font-family: 'Poppins';
 }
 
 .DEmMF {
